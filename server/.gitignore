@@ -1,0 +1,4 @@
+# database connection link
+/.env
+
+/node_modules

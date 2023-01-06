@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&family=Nunito+Sans:wght@300;400;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Nunito Sans', sans-serif !important;
+  font-weight: bolder;
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* navigation bar styling */
+.heading, .m-2{
+  text-decoration: none;
+  color:black;
+}
+.heading:hover{
+  color: black;
+}
+.navbar{
+  font-weight: bold !important;
+}
+
+.nav-link{
+  color: rgb(18, 18, 18)!important;
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+/* navigation bar styling end */
+
+/* landing page styling */
+.Land-Page{
+  height: 100vh;
+  padding: 100px;
+  background-image: url("../public/Assets/bg-image.png") !important;
+  background-repeat: no-repeat;
+}
+.headline{
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
+  color: rgb(16, 16, 16);
+}
+.auth-link{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+/* margin: 10px; */
+
+ }
+.link{
+  color: #fff;
+  text-decoration: none;
+  background-color: rgb(39, 39, 39);
+  padding: 7px ;
+  border-radius: 5px;
+}
+.link:hover{
+  color:beige
+}
+
+/* lading page styling end */
+
+.item-name{
+  text-indent: 2px !important;
+ 
+}
+.food-menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  height: 350px;
+  width: 300px;
+}
+ .item-card{
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+ width: 100%;
+ 
+ /* margin-left: 30%; */
+  
+}
+select{
+  box-shadow: none;
+  border-color: black !important;
+  padding: 3px 10px;
+  border-radius: 4px;
+  width: 100%;
+  
+ 
+}
+.p, h6{
+  text-align: center;
+}
+.btn{
+  margin-left: 20px;
+}
+
+
+/* cart page styling */
+
+.bi-plus{
+  color: green;
+  font-size: 22px;
+
+}
+.bi-dash-lg{
+  color: red;
+  font-size: 22px;
+}
+
+.bi-trash{
+  font-size: 25px;
+  color: rgb(172, 8, 8);
+}
+.btn-primary{
+  color: #fff;
+  margin-top: 30px;
+}
+.item-box{
+  width: 130%;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* cart page styling */
+
+/* sign-up page styling */
+input{
+  margin-top: 10px !important;
+  box-shadow: none !important;
+  /* width: 85% !important; */
+  
+}
+.text-center{
+  font-weight: 700 !important;
+  color: rgb(45, 44, 44)  !important;
+}
+
+/* sign-up page styling */
+
+/* order screen styling */
+
+.orders{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.mt-5{
+  display: flex;
+  
+}
+.m-3{
+  text-align: left;
+}
+
+.list-group-item > a{
+  text-decoration: none;
+  color: black;
+  
+}
+
+
+
+ 
